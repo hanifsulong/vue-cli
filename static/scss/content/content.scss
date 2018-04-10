@@ -1,0 +1,29 @@
+
+@import './../header/header';
+
+.content{
+  position:absolute;
+  display:block;
+  // margin-left: 300px;
+  margin-top: $header-height;
+  height:calc(100% - 50px);
+  // height:100%;
+  left:300px;
+  right:0;
+  // overflow: auto;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}

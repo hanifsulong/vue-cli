@@ -1,0 +1,42 @@
+
+
+.sidebar{
+  position:fixed;
+  display:block;
+  width:300px;
+  margin-top: 50px;
+  // height:calc(100% - 50px);
+  height:100%;
+  background: #427610;
+  // bottom:0;
+}
+
+.sidebar-header{
+  padding:5px 20px;
+}
+
+.sidebar ul{
+  display : block;
+  padding-left: 0px;
+}
+
+.sidebar li {
+  display : block;
+  // padding:8px 20px;
+  cursor:pointer;
+}
+
+.sidebar li:hover {
+  background-color:#28450C;
+}
+
+.sidebar li > a{
+  display:block;
+  padding: 12px 20px;
+  text-decoration: none;
+  color:#fff;
+}
+
+.active{
+  background-color:#28450C;
+}
